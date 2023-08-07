@@ -28,7 +28,7 @@ Al finalizar el curso el estudiante:
   - [R-Studio](https://www.rstudio.com/)
   - [R project](https://www.r-project.org/)
   - [Github](https://github.com/)
-  - [Git](https://git-scm.com/)
+  - [Git](https://git-scm.com/))
   - [Miktex](https://miktex.org/)
 
 -----
