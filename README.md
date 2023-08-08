@@ -1,5 +1,3 @@
-# Actividad 1 de Análisis estadístico
-
 # Programación del Curso
 
 - __Profesor__: Dr. Marco Aurelio González Tagle.
@@ -32,7 +30,7 @@ Al finalizar el curso el estudiante:
   - [Miktex](https://miktex.org/)
 
 -----
-
+# Actividad 1 de Métodos estadísticos
 ## 0. Introducción al curso: R, Rstudio, Git (versión control)
 
 - :card_index: __Fecha__: Semana 1
@@ -47,3 +45,13 @@ Al finalizar el curso el estudiante:
     + [Crear una cuenta en Github](http://profesores.elo.utfsm.cl/~agv/elo329/1s14/Assignments/GuiaGitHub.pdf)
 - :microscope: __Lab__: No
 - :dart: __Tarea__: *SI*
+
+-----
+# Actividad 2 Configurar Git y Github, Crear Proyecto
+##  Objetivos
+
++ :dart: Configurar mi nombre de usuario y correo electrónico en la cuenta de Git.
+
++ :dart: Crear un proyecto clonando el repositorio de Github.
+
++ :dart: Realziar la primera sincronización del proyecto y la nube (Github).
