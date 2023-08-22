@@ -5,8 +5,8 @@
 
 # Importar datos ----------------------------------------------------------
 # Función read.csv (sirve para importar datos csv a R)
-
-mediciones <- read.csv("Codigos/mediciones.csv", header = TRUE)
+setwd("C:/Repositorio_GIT/Met_ES/Codigos")
+mediciones <- read.csv("mediciones.csv", header = TRUE)
 head(mediciones) # función head (sirve para ver primeros 6 datos)
 
 # Descriptivas ------------------------------------------------------------
@@ -30,3 +30,31 @@ boxplot(mediciones$altura,
         ylab = "Altura (cm)",
         main = "Sitio 1",
         ylim = c(6,14))
+
+
+# Hipotesis ---------------------------------------------------------------
+
+# xobs = 10.17 vs xteo = 11
+# Plantas de cedro deben alcanzar una altura de 11 cm en un año
+# de acuerdo a los dichos de viveristas.
+# El valor de alfa referencia es 0.05
+
+# Procedimiento -----------------------------------------------------------
+# Aplicar la función t.test
+
+t.test(mediciones$altura, mu = 11)
+
+
+# Replicabilidad ----------------------------------------------------------
+
+# Guardar la prueba de t en un objeto llamado "prueba"
+prueba <- t.test(mediciones$altura, mu = 11)
+
+# Conocer los grados de libertad
+prueba$parameter
+
+# Conocer el p-value
+prueba$p.value
+# Se acepta la  H1 
+# Conocer intervalos de confianza
+prueba$conf.int
