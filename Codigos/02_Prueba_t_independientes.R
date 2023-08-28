@@ -39,6 +39,7 @@ descriptor <- vivero %>%
     var = var(IE)
   )
 
+descriptor
 # Grafica -----------------------------------------------------------------
 
 boxplot(vivero$IE ~ vivero$Tratamiento,
