@@ -27,4 +27,3 @@ plot(d1$x, d1$y,
      pch=19,
      xlab = "Valor de x",
      ylab = "Valor de y")
-
