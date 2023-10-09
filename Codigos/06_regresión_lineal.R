@@ -44,3 +44,4 @@ y.pr
 # el rango de los valores de x son mi ventana de 
 # predicción de yprima
 # range(erupciones$waiting)
+range(erupciones$waiting)
